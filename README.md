@@ -100,6 +100,4 @@ Next.js • FastAPI • PostgreSQL • GPT-4o • LangChain • Recharts • Alp
 ## 🚀 Status
 
 Hackathon MVP in progress
-## 📸 Product Screenshots
 
-(Screenshots currently updating — will be added soon)
