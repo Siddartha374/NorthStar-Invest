@@ -100,3 +100,13 @@ Next.js • FastAPI • PostgreSQL • GPT-4o • LangChain • Recharts • Alp
 ## 🚀 Status
 
 Hackathon MVP in progress
+## 📸 Product Screenshots
+
+### Dashboard
+![Dashboard](frontend/screenshots/dashboard.png)
+
+### AI Financial Copilot
+![AI Copilot](frontend/screenshots/ai.png)
+
+### Macro Intelligence Engine
+![Macro](frontend/screenshots/macro.png)
