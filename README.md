@@ -103,10 +103,9 @@ Hackathon MVP in progress
 ## 📸 Product Screenshots
 
 ### Dashboard
-![Dashboard](frontend/screenshots/dashboard.png)
+![Dashboard](frontend/screenshots/Screenshot 2026-06-30 at 7.09.13 PM.png)
+
+---
 
 ### AI Financial Copilot
-![AI Copilot](frontend/screenshots/ai.png)
-
-### Macro Intelligence Engine
-![Macro](frontend/screenshots/macro.png)
+![AI Copilot](frontend/screenshots/Screenshot 2026-06-30 at 7.09.17 PM.png)
