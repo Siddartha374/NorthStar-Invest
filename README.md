@@ -102,10 +102,4 @@ Next.js • FastAPI • PostgreSQL • GPT-4o • LangChain • Recharts • Alp
 Hackathon MVP in progress
 ## 📸 Product Screenshots
 
-### Dashboard
-![Dashboard](frontend/screenshots/dashboard.png)
-
----
-
-### AI Financial Copilot
-![AI Copilot](frontend/screenshots/ai-copilot.png)
+(Screenshots currently updating — will be added soon)
