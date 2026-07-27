@@ -2,7 +2,7 @@ import { Navigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 
 export function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { isAuthenticated, loading } = useAuth();
+  const { isAuthenticated, demoMode, loading } = useAuth();
 
   if (loading) {
     return (
@@ -12,7 +12,8 @@ export function ProtectedRoute({ children }: { children: React.ReactNode }) {
     );
   }
 
-  if (!isAuthenticated) {
+  // If the user is NOT logged in AND they are NOT in demo mode, kick them to login
+  if (!isAuthenticated && !demoMode) {
     return <Navigate to="/login" replace />;
   }
 
