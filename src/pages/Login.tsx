@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 
 export default function Login() {
-  const { signIn, signUp, enterDemoMode, demoMode } = useAuth();
+  const { signIn, signUp, enterDemoMode } = useAuth();
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -27,8 +27,14 @@ export default function Login() {
   }
 
   function handleDemo() {
+    // Explicitly set onboarding completion metadata in browser storage 
+    // to bypass database constraints seamlessly
+    localStorage.setItem(
+      "nsi_onboarding",
+      JSON.stringify({ risk: "moderate", horizon: "medium", goal: "House down-payment", targetAmount: 4500000, complete: true })
+    );
     enterDemoMode();
-    navigate("/onboarding");
+    navigate("/");
   }
 
   return (
